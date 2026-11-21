@@ -1,0 +1,43 @@
+{
+  "title": "The Long Summer",
+  "format": "field-guide",
+  "look": "guide-engraving",
+  "voice": { "narrator": "JBFqnCBsd6RMkjVDRZzb" },
+  "bed": "drone",
+  "bed_gain": 0.42,
+  "gap": 0.13,
+  "lines": [
+    { "id": "a1", "who": "narrator", "say": "What if you never had another winter, for the rest of your life?", "key": ["never", "winter"] },
+    { "id": "a2", "who": "narrator", "say": "You would have to fly.", "key": ["fly"] },
+    { "id": "a3", "who": "narrator", "say": "Plate one. The Arctic tern. About a hundred grams, lighter than your phone.", "key": ["hundred", "lighter"] },
+    { "id": "a4", "who": "narrator", "say": "In June it nests near the top of the world, where daylight never stops.", "key": ["June", "daylight"] },
+    { "id": "a5", "who": "narrator", "say": "Then the north starts to go dark, so it leaves.", "key": ["dark", "leaves"] },
+    { "id": "a6", "who": "narrator", "say": "Plate two. The route.", "key": ["route"] },
+    { "id": "a7", "who": "narrator", "say": "South down the Atlantic, with a month's stop at sea to eat.", "key": ["South", "month's"] },
+    { "id": "a8", "who": "narrator", "say": "By November it reaches Antarctica, where the sun has stopped setting.", "key": ["November", "stopped"] },
+    { "id": "a9", "who": "narrator", "say": "That is a second summer, in one year.", "key": ["second"] },
+    { "id": "a10", "who": "narrator", "say": "Home is the long way round, a giant S, riding the winds.", "key": ["giant", "winds"] },
+    { "id": "a11", "who": "narrator", "say": "Plate three. The bill.", "key": ["bill"] },
+    { "id": "a12", "who": "narrator", "say": "About seventy thousand kilometers a year, for up to thirty years.", "key": ["seventy", "thirty"] },
+    { "id": "a13", "who": "narrator", "say": "That is nearly three trips to the Moon and back.", "key": ["three", "Moon"] },
+    { "id": "a14", "who": "narrator", "say": "Or you could buy a coat.", "key": ["coat"] }
+  ],
+  "cues": [
+    { "at": "winter", "sound": "whoosh", "gain": 0.22 },
+    { "at": "fly", "sound": "whoosh", "gain": 0.4 },
+    { "at": "Plate", "sound": "stamp", "gain": 0.65 },
+    { "at": "lighter", "sound": "pop", "gain": 0.4 },
+    { "at": "June", "sound": "tick", "gain": 0.5 },
+    { "at": "leaves", "sound": "whoosh", "gain": 0.35 },
+    { "at": "Plate", "sound": "stamp", "gain": 0.65 },
+    { "at": "month's", "sound": "pop", "gain": 0.4 },
+    { "at": "November", "sound": "tick", "gain": 0.5 },
+    { "at": "second", "sound": "ding", "gain": 0.32 },
+    { "at": "giant", "sound": "whoosh", "gain": 0.3 },
+    { "at": "Plate", "sound": "stamp", "gain": 0.65 },
+    { "at": "seventy", "sound": "tick", "gain": 0.5 },
+    { "at": "thirty", "sound": "riser", "gain": 0.3 },
+    { "at": "three", "sound": "impact", "gain": 0.55 },
+    { "at": "coat", "sound": "ding", "gain": 0.34 }
+  ]
+}

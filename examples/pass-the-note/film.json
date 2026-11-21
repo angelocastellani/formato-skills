@@ -1,0 +1,522 @@
+{
+  "title": "Pass the Note",
+  "format": "runaway",
+  "look": "runaway-model",
+  "voice": {
+    "narrator": "JBFqnCBsd6RMkjVDRZzb",
+    "leo": "TX3LPaxmHKxFdv7VOQHJ",
+    "ben": "TX3LPaxmHKxFdv7VOQHJ",
+    "ivy": "pFZP5JQG7iQjIQuC4Bku",
+    "teacher": "EXAVITQu4vr4xnSDxMaL",
+    "upstairs": "pFZP5JQG7iQjIQuC4Bku",
+    "caretaker": "JBFqnCBsd6RMkjVDRZzb",
+    "reporter": "EXAVITQu4vr4xnSDxMaL",
+    "pilot": "JBFqnCBsd6RMkjVDRZzb",
+    "astronaut": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "bed": "drone",
+  "bed_gain": 0.4,
+  "lines": [
+    {
+      "id": "l1",
+      "who": "leo",
+      "say": "Pass this to Ivy.",
+      "key": [
+        "Ivy"
+      ],
+      "gap": 2.3,
+      "stability": 0.4
+    },
+    {
+      "id": "l2",
+      "who": "teacher",
+      "say": "Who is passing notes?",
+      "key": [
+        "notes"
+      ],
+      "gap": 2.2
+    },
+    {
+      "id": "l3",
+      "who": "leo",
+      "say": "Nobody saw that.",
+      "key": [
+        "Nobody"
+      ],
+      "gap": 2.1
+    },
+    {
+      "id": "l4",
+      "who": "ben",
+      "say": "Is that a sandwich?",
+      "key": [
+        "sandwich"
+      ],
+      "gap": 2.2
+    },
+    {
+      "id": "l5",
+      "who": "teacher",
+      "say": "Eyes on the board, Leo.",
+      "key": [
+        "board"
+      ],
+      "gap": 2.5
+    },
+    {
+      "id": "l6",
+      "who": "upstairs",
+      "say": "Sir, the floor has a note in it.",
+      "key": [
+        "floor"
+      ],
+      "gap": 3.5
+    },
+    {
+      "id": "l7",
+      "who": "caretaker",
+      "say": "Not again.",
+      "key": [
+        "again"
+      ],
+      "gap": 3.6
+    },
+    {
+      "id": "l8",
+      "who": "reporter",
+      "say": "Police say it is addressed to someone called Ivy.",
+      "key": [
+        "Ivy"
+      ],
+      "gap": 1.1
+    },
+    {
+      "id": "l9",
+      "who": "ivy",
+      "say": "Leo, is that for me?",
+      "key": [
+        "me"
+      ],
+      "gap": 0.3
+    },
+    {
+      "id": "l10",
+      "who": "leo",
+      "say": "No.",
+      "key": [
+        "No"
+      ],
+      "gap": 5.6
+    },
+    {
+      "id": "l11",
+      "who": "pilot",
+      "say": "If you look out the left side, please do not. It is private.",
+      "key": [
+        "private"
+      ],
+      "gap": 6.2
+    },
+    {
+      "id": "l12",
+      "who": "astronaut",
+      "say": "There are two boxes. Yes and no.",
+      "key": [
+        "Yes",
+        "no"
+      ],
+      "gap": 8.0
+    },
+    {
+      "id": "l13",
+      "who": "ivy",
+      "say": "You could just ask me.",
+      "key": [
+        "ask"
+      ],
+      "gap": 0.5
+    },
+    {
+      "id": "l14",
+      "who": "leo",
+      "say": "Not in front of everyone.",
+      "key": [
+        "everyone"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "at": "Pass",
+      "sound": "stamp",
+      "gain": 0.35,
+      "nudge": 2.0
+    },
+    {
+      "at": "Who",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.16
+    },
+    {
+      "at": "Who",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.75
+    },
+    {
+      "at": "Who",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.35
+    },
+    {
+      "at": "Nobody",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.26
+    },
+    {
+      "at": "Nobody",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.85
+    },
+    {
+      "at": "Nobody",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.48
+    },
+    {
+      "at": "Nobody",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.12
+    },
+    {
+      "at": "Nobody",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.25
+    },
+    {
+      "at": "Is",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.16
+    },
+    {
+      "at": "Is",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.75
+    },
+    {
+      "at": "Is",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.38
+    },
+    {
+      "at": "Is",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.02
+    },
+    {
+      "at": "Is",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.35
+    },
+    {
+      "at": "Eyes",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.26
+    },
+    {
+      "at": "Eyes",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.85
+    },
+    {
+      "at": "Eyes",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.3
+    },
+    {
+      "at": "Eyes",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.25
+    },
+    {
+      "at": "Sir,",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.26
+    },
+    {
+      "at": "Sir,",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.85
+    },
+    {
+      "at": "Sir,",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.25
+    },
+    {
+      "at": "Not",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -2.76
+    },
+    {
+      "at": "Not",
+      "sound": "stamp",
+      "gain": 0.5,
+      "nudge": -2.35
+    },
+    {
+      "at": "Not",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -0.86
+    },
+    {
+      "at": "Not",
+      "sound": "stamp",
+      "gain": 0.5,
+      "nudge": -0.45
+    },
+    {
+      "at": "Police",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -2.86
+    },
+    {
+      "at": "Police",
+      "sound": "stamp",
+      "gain": 0.5,
+      "nudge": -2.45
+    },
+    {
+      "at": "Police",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.06
+    },
+    {
+      "at": "Police",
+      "sound": "stamp",
+      "gain": 0.5,
+      "nudge": -0.65
+    },
+    {
+      "at": "Leo,",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -0.41
+    },
+    {
+      "at": "No.",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -0.26
+    },
+    {
+      "at": "No.",
+      "sound": "stamp",
+      "gain": 0.6,
+      "nudge": 0.75
+    },
+    {
+      "at": "If",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -4.51
+    },
+    {
+      "at": "If",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -4.1
+    },
+    {
+      "at": "If",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": -3.0
+    },
+    {
+      "at": "If",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.36
+    },
+    {
+      "at": "If",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.95
+    },
+    {
+      "at": "If",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.58
+    },
+    {
+      "at": "If",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.22
+    },
+    {
+      "at": "If",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.15
+    },
+    {
+      "at": "There",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -5.36
+    },
+    {
+      "at": "There",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -4.95
+    },
+    {
+      "at": "There",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -4.4
+    },
+    {
+      "at": "There",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": -3.85
+    },
+    {
+      "at": "There",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.36
+    },
+    {
+      "at": "There",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -0.95
+    },
+    {
+      "at": "There",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": 0.15
+    },
+    {
+      "at": "You",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -7.16
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -6.75
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -6.47
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -6.2
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -5.92
+    },
+    {
+      "at": "You",
+      "sound": "stamp",
+      "gain": 0.55,
+      "nudge": -5.65
+    },
+    {
+      "at": "You",
+      "sound": "riser",
+      "gain": 0.35,
+      "nudge": -5.2
+    },
+    {
+      "at": "You",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -4.16
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -3.75
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -3.29
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -2.83
+    },
+    {
+      "at": "You",
+      "sound": "tick",
+      "gain": 0.5,
+      "nudge": -2.36
+    },
+    {
+      "at": "You",
+      "sound": "impact",
+      "gain": 0.8,
+      "nudge": -1.9
+    },
+    {
+      "at": "You",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -1.06
+    },
+    {
+      "at": "Not",
+      "sound": "whoosh",
+      "gain": 0.42,
+      "nudge": -0.31
+    }
+  ]
+}

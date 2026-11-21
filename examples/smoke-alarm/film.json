@@ -1,0 +1,179 @@
+{
+  "title": "Smoke Alarm",
+  "format": "drill",
+  "look": "drill-scan",
+  "voice": {
+    "narrator": "Xb7hH8MSUJpSbSDYk0k2"
+  },
+  "bed": "drone",
+  "bed_gain": 0.42,
+  "gap": 0.12,
+  "lines": [
+    {
+      "id": "a1",
+      "who": "narrator",
+      "say": "Three in the morning. Your smoke alarm goes off.",
+      "key": [
+        "alarm"
+      ]
+    },
+    {
+      "id": "a2",
+      "who": "narrator",
+      "say": "A fire can turn deadly in two minutes.",
+      "key": [
+        "two"
+      ]
+    },
+    {
+      "id": "s1",
+      "who": "narrator",
+      "say": "One. Leave your things. Not your wallet, not your laptop.",
+      "key": [
+        "Leave"
+      ]
+    },
+    {
+      "id": "s2",
+      "who": "narrator",
+      "say": "Two. If there is smoke, do not stand up. Smoke and poison gas fill the ceiling first, so crawl under it.",
+      "key": [
+        "crawl"
+      ]
+    },
+    {
+      "id": "s3",
+      "who": "narrator",
+      "say": "Three. Do not grab the door. Feel it first, knob and door.",
+      "key": [
+        "Feel"
+      ]
+    },
+    {
+      "id": "s3b",
+      "who": "narrator",
+      "say": "If it is hot, or smoke comes around it, leave it shut and use your second way out.",
+      "key": [
+        "hot",
+        "shut"
+      ]
+    },
+    {
+      "id": "s4",
+      "who": "narrator",
+      "say": "Four. Close the doors behind you. It slows the fire.",
+      "key": [
+        "Close"
+      ]
+    },
+    {
+      "id": "s5",
+      "who": "narrator",
+      "say": "Five. Call from outside, and never go back in.",
+      "key": [
+        "outside",
+        "never"
+      ]
+    },
+    {
+      "id": "t1",
+      "who": "narrator",
+      "say": "In one test burn, an open bedroom reached 500 degrees.",
+      "say_as": "In one test burn, an open bedroom reached five hundred degrees.",
+      "key": [
+        "five",
+        "hundred"
+      ]
+    },
+    {
+      "id": "t2",
+      "who": "narrator",
+      "say": "The one with the door shut, 100.",
+      "say_as": "The one with the door shut, one hundred.",
+      "key": [
+        "hundred"
+      ]
+    },
+    {
+      "id": "e1",
+      "who": "narrator",
+      "say": "Tonight, close your bedroom door.",
+      "key": [
+        "Tonight",
+        "door"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "at": "alarm",
+      "sound": "riser",
+      "gain": 0.4
+    },
+    {
+      "at": "two",
+      "sound": "stamp",
+      "gain": 0.55
+    },
+    {
+      "at": "One",
+      "sound": "tick",
+      "gain": 0.6
+    },
+    {
+      "at": "Leave",
+      "sound": "stamp",
+      "gain": 0.4
+    },
+    {
+      "at": "Two",
+      "sound": "tick",
+      "gain": 0.6
+    },
+    {
+      "at": "crawl",
+      "sound": "stamp",
+      "gain": 0.4
+    },
+    {
+      "at": "Three",
+      "sound": "tick",
+      "gain": 0.6
+    },
+    {
+      "at": "hot",
+      "sound": "impact",
+      "gain": 0.5
+    },
+    {
+      "at": "Four",
+      "sound": "tick",
+      "gain": 0.6
+    },
+    {
+      "at": "Close",
+      "sound": "stamp",
+      "gain": 0.7
+    },
+    {
+      "at": "Five",
+      "sound": "tick",
+      "gain": 0.6
+    },
+    {
+      "at": "five",
+      "sound": "riser",
+      "gain": 0.4
+    },
+    {
+      "at": "shut",
+      "sound": "stamp",
+      "gain": 0.6
+    },
+    {
+      "at": "door",
+      "sound": "stamp",
+      "gain": 0.7
+    }
+  ]
+}

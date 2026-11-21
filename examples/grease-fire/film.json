@@ -1,0 +1,141 @@
+{
+  "title": "Grease Fire",
+  "format": "drill",
+  "look": "drill-rules",
+  "voice": {
+    "narrator": "9YXXnWiZRvGI1E2OhGfP"
+  },
+  "bed": "pulse",
+  "bed_gain": 0.46,
+  "gap": 0.12,
+  "lines": [
+    {
+      "id": "a1",
+      "who": "narrator",
+      "say": "Your pan is on fire, and your hand is already on the tap.",
+      "key": [
+        "fire",
+        "tap"
+      ]
+    },
+    {
+      "id": "r1",
+      "who": "narrator",
+      "say": "Rule number one. No water.",
+      "key": [
+        "No",
+        "water"
+      ]
+    },
+    {
+      "id": "r1b",
+      "who": "narrator",
+      "say": "It sinks under the hot oil, flashes to steam, and throws the fire at you.",
+      "key": [
+        "steam",
+        "throws"
+      ]
+    },
+    {
+      "id": "r2",
+      "who": "narrator",
+      "say": "Rule number two. If it is small, slide a lid over the pan, and turn off the burner.",
+      "key": [
+        "lid",
+        "burner"
+      ]
+    },
+    {
+      "id": "r2b",
+      "who": "narrator",
+      "say": "Do not carry it to the sink.",
+      "key": [
+        "carry"
+      ]
+    },
+    {
+      "id": "r3",
+      "who": "narrator",
+      "say": "Rule number three. No peeking. The lid stays on until the pan is cool.",
+      "key": [
+        "peeking",
+        "cool"
+      ]
+    },
+    {
+      "id": "r4",
+      "who": "narrator",
+      "say": "Rule number four. Any doubt? Get out, shut the door, then call.",
+      "key": [
+        "out",
+        "door"
+      ]
+    },
+    {
+      "id": "e1",
+      "who": "narrator",
+      "say": "Tonight, put a lid next to the stove.",
+      "key": [
+        "Tonight",
+        "lid"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "at": "fire",
+      "sound": "whoosh",
+      "gain": 0.45
+    },
+    {
+      "at": "Rule",
+      "sound": "stamp",
+      "gain": 0.6
+    },
+    {
+      "at": "steam",
+      "sound": "impact",
+      "gain": 0.7
+    },
+    {
+      "at": "Rule",
+      "sound": "stamp",
+      "gain": 0.6
+    },
+    {
+      "at": "lid",
+      "sound": "pop",
+      "gain": 0.6
+    },
+    {
+      "at": "carry",
+      "sound": "tick",
+      "gain": 0.5
+    },
+    {
+      "at": "Rule",
+      "sound": "stamp",
+      "gain": 0.6
+    },
+    {
+      "at": "cool",
+      "sound": "ding",
+      "gain": 0.35
+    },
+    {
+      "at": "Rule",
+      "sound": "stamp",
+      "gain": 0.6
+    },
+    {
+      "at": "door",
+      "sound": "stamp",
+      "gain": 0.6
+    },
+    {
+      "at": "stove",
+      "sound": "ding",
+      "gain": 0.45
+    }
+  ]
+}
